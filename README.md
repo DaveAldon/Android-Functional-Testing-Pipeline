@@ -23,7 +23,7 @@ To succeed, we need the following to happen:
 3. Repo with the espresso test branch. Make sure these env vars are setup as well, as the `security` CLI doesn't exist in Linux and we have to bypass this gradle step:
 
 ```bash
-export CI='something`
+export CI='something'
 export ANDROID_STORE_PASSWORD='something'
 ```
 
